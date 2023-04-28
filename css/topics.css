@@ -5,13 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #eff0f4;
-}
+
 .container{
     position: relative;
     display: flex;
@@ -23,6 +17,15 @@ body{
 }
 .topics{
     margin-top: 50px;
+    padding-top: 50px;
+}
+#topics{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eff0f4;
 }
 .container .drop{
     position: relative;
@@ -121,14 +124,13 @@ body{
     opacity: 1;
 }
 
-
-
-
-
 /*media query */
 @media (max-width:500px){
 .container .drop{
     width: 300px;
     height: 300px;
+}
+.topics{
+    padding-top: 0px;
 }
 }

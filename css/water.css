@@ -142,6 +142,21 @@ header .logo i{
 .home .cont .btn:hover{
     color:#fff;
 }
+.footer{
+    background:#0a4495;
+   text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 12px;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(6, 205, 205);
+}
+.footer a:visited{
+    color:rgb(6, 205, 205);
+}
 
 
 
@@ -156,3 +171,4 @@ header .logo i{
         margin-top: 7px;
     }
 }
+
