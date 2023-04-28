@@ -1,0 +1,31 @@
+.photo{
+    min-height: 100vh;
+    text-align: center;
+    background:#eee;
+    padding:1rem;
+    padding-top: 8rem;
+}
+.photo h1{
+    font-size: 3.5rem;
+}
+.photo .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.photo .box-container .box{
+    margin:1rem;
+    background:#fff;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    padding:2rem 4rem;
+}
+
+
+.photo .box-container .box img{
+    height:20rem;
+    width:20rem;
+    margin:1rem 0;
+}
