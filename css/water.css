@@ -72,8 +72,8 @@ header{
 header .logo{
     font-family: 'Instrument Serif', serif;
     font-weight: bold;
-    font-size: 3rem;
-    color:#000000;
+    font-size: 2.5rem;
+    color:white
 }
 
 header .logo i{
@@ -111,24 +111,24 @@ header .logo i{
 
 .home .cont h1{
     font-size: 3rem;
-    color:#000000;
+    color:#eee;
 }
 
 .home .cont p{
     font-size: 1.8rem;
-    color:#eee;
+    color:#000000;
     padding:.5rem 2rem;
     line-height: 27px;
 }
 .home .cont ul{
     font-size: 1.5rem;
-    color:#eee;
+    color:#000000;
     list-style: none;
     padding:.5rem 5rem;
 } 
 .home .cont ul li::before {
     content: "\2022";
-    color: black;
+    color: #eee;
     display: inline-block; 
     width: 1em;
     margin-right: -1em;
@@ -169,6 +169,12 @@ header .logo i{
     .home .cont h1{
         font-size:3rem ;
         margin-top: 7px;
+    }
+    .footer{
+        font-size:8px;
+    }
+    .logo{
+        font-size: 1.5rem;
     }
 }
 
