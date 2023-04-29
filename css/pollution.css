@@ -54,13 +54,13 @@
 .container .drop:nth-child(3),
 .container .drop:nth-child(4),
 .container .drop:nth-child(5){
-    height: 700px;
+    height: 770px;
     width: 370px;
 }
 .container .drop:nth-child(3) p,
 .container .drop:nth-child(4) p,
 .container .drop:nth-child(5) p{
-    padding: 5px 35px;
+    padding: 5px 30px;
 }
 .pre{
     width:290px
