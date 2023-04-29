@@ -128,7 +128,7 @@ header .logo i{
 } 
 .home .cont ul li::before {
     content: "\2022";
-    color: #eee;
+    color: #0B2447;
     display: inline-block; 
     width: 1em;
     margin-right: -1em;
